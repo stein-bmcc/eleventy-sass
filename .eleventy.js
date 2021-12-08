@@ -1,3 +1,5 @@
+const yaml = require('js-yaml');
+const eleventyNavigationPlugin = require('@11ty/eleventy-navigation');
 module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("./src/css/");
     eleventyConfig.addWatchTarget("./src/css/");
@@ -6,6 +8,7 @@ module.exports = function(eleventyConfig) {
 
     // Return your Object options:
     return {
+      markdownTemplateEngine: 'njk',
       dir: {
         input: "src",
         output: "public"
