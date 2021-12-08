@@ -1,4 +1,4 @@
-# Elevently Basic Starter
+# Eleventy Basic Starter
 
 > This is a minimal eleventy starter designed to have a similar structure to a basic web site. The repo owes a big thanks to Stephanie Eckles's [Smol Eleventy Starter](https://github.com/5t3ph/smol-11ty-starter) repository.
 
