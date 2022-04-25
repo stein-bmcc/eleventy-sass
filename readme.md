@@ -1,13 +1,13 @@
 # Eleventy Basic Starter
 
-> This is a minimal eleventy starter designed to have a similar structure to a basic web site. The repo owes a big thanks to Stephanie Eckles's [Smol Eleventy Starter](https://github.com/5t3ph/smol-11ty-starter) repository.
+> This is a minimal eleventy starter designed to have a similar structure to a basic web site. The repo owes a big thanks to Stephanie Eckles's [Smol Eleventy Starter](https://github.com/5t3ph/smol-11ty-starter) and [11th Sasss Skeleton)[https://github.com/5t3ph/11ty-sass-skeleton)repositories.
 
 
 ## Quick Start
 
-1. [Generate a repo from this template](https://github.com/profstein/eleventy-basic/generate) which will copy this project into your own new repo. _Note: You must be signed in to GitHub for this link to work_
+1. [Generate a repo from this template](https://github.com/profstein/eleventy-sass/generate) which will copy this project into your own new repo. _Note: You must be signed in to GitHub for this link to work_
    
-   The other option is to [visit the repo directly](https://github.com/profstein/eleventy-basic/) and clone it. Generating is a smoother process and is recommended over direct cloning.
+   The other option is to [visit the repo directly](https://github.com/profstein/eleventy-sass/) and clone it. Generating is a smoother process and is recommended over direct cloning.
 
 2. Once you have a copy of the repository on GitHub, Clone it to your local computer. There are a few options
     1. Use the Terminal – [see this GitHub tutorial](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
