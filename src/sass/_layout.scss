@@ -1,0 +1,16 @@
+/* ================= ===========================
+  ADD YOUR LAYOUT CSS HERE
+  ================================================ */
+//This is not necessary. Opinionated to remove default margin from body to allow things to go all the way across the screen.
+body{
+    margin: 0;
+}
+
+main{
+    //add padding around main content on each page
+    padding: 5px;
+}
+
+.site-footer{
+    text-align: center;
+}

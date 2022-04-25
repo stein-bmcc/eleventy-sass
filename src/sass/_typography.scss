@@ -4,12 +4,10 @@
     You should change the fonts, font-sizes and anything else appropriate for your site.
     ========================== */
 
-/* Optional, include a web font. @import must come before other styles. These examples are commented out */
-
-/*
+/* Optional, include a web font. @import must come before other styles. */
 @import url('https://fonts.googleapis.com/css?family=Rubik:400,400i,700,700i');
 @import url('https://fonts.googleapis.com/css?family=Barlow+Condensed:400,500');
-*/
+
 
 /* The html and body selectors below set the base type for the entire page */
 html {
@@ -17,7 +15,8 @@ html {
   }
   
   body {
-    font-family: sans-serif;
+    // font-family: sans-serif;
+    font-family: Rubik, sans-serif; //remove or replace with you own font.
     font-weight: 400;
     line-height: 1.5;
     color: #333;
@@ -44,7 +43,8 @@ html {
   h5,
   h6 {
     font-weight: 500;
-    font-family: serif;
+    // font-family: serif;
+    font-family: 'Barlow Condensed', sans-serif; //remove or replace with you own font.
   }
   
   
@@ -91,3 +91,8 @@ html {
     /* normal */
     text-transform: uppercase;
   }
+
+//   if h2 is the first in main then remove extra margin at top
+main h2:first-child{
+    margin-top: 0;
+}
