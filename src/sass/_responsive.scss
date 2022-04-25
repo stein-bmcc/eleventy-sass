@@ -16,6 +16,12 @@ html {
     height: auto;
     max-width: 100%;
   }
+
+//   The figure element adds margin around it. This removes the default margins (most people dont' expect or want them)
+//   add them back in as needed or wanted
+  figure{
+      margin: 0;
+  }
   
   /* ======== Responsive Embedded Video ================= */
   /* to use this add a div with class videoWrapper around the iframe markup copied from YouTube or Vimeo. Then also add a ratio-16-9 (most common) or ratio-4-3 class to the wrapper depending on the aspect ratio of your video */
