@@ -24,19 +24,21 @@ siteName: YourSiteName
 <body>
   <header class="site-header">
         <!-- add site wide header content here -->
-        {% include "nav-basic.njk" %}
+        {% include "nav-collection.njk" %}
   </header>
 
-  {{ content | safe }}
-
+  <main class="{{ pageClass }}">
+    {{ content | safe }}
+  </main>
+  
   <footer class="site-footer">
     <div>
-      <p>&copy; {{ pkg.author }}</p>
+      <p>&copy; Add Footer Info here</p>
       <!-- You can change all of this footer content. -->
     </div>
   </footer>
 
-  
+
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <script src="/js/main.js"></script>
 </body>
