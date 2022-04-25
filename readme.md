@@ -1,6 +1,6 @@
 # Eleventy Sass Starter
 
-> This is a minimal eleventy starter designed to have a similar structure to a basic web site. The repo owes a big thanks to Stephanie Eckles's [Smol Eleventy Starter](https://github.com/5t3ph/smol-11ty-starter) and [11ty Sasss Skeleton](https://github.com/5t3ph/11ty-sass-skeleton)repositories.
+> This is a minimal eleventy starter designed to have a similar structure to a basic web site. The repo owes a big thanks to Stephanie Eckles's [Smol Eleventy Starter](https://github.com/5t3ph/smol-11ty-starter) and [11ty Sass Skeleton](https://github.com/5t3ph/11ty-sass-skeleton) repositories.
 
 
 ## Quick Start
