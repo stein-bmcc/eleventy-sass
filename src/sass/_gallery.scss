@@ -1,0 +1,30 @@
+.image-gallery{
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+}
+
+.img-container{
+    margin: 0;
+    position: relative;
+    background-color: green;
+}
+
+.img-container img{
+    display: block; 
+    /* setting the display to block 
+    removes the gap under the image */
+  }
+
+.img-caption{
+//     position: absolute;
+//   top: 0;
+//   right: 0;
+  background-color: #fff;
+//   background-color: rgba(255,255,255,.7);
+
+    padding: 5px 10px;
+    font-size: .85rem;
+
+    text-align: right;
+}
